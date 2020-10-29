@@ -1,0 +1,61 @@
+.flight-details #flight-name {
+  color: #0000ee;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.programs-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.title-element {
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.developed-by {
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  /* font-size: 16px; */
+  font-weight: bolder;
+}
+
+.flight-details {
+  margin: 8px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+mat-card {
+  margin: 16px;
+  /* width: 16vw; */
+  /* width: 25%;; */
+}
+
+#mission-ids {
+  margin: auto;
+  width: 50%;
+}
+
+@media (min-width: 800px) {
+    mat-card {
+        margin: 16px;
+        width: 16vw;
+      }
+  }

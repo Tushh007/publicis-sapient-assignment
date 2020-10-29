@@ -1,0 +1,65 @@
+<mat-card id="filter-card">
+    <mat-card-header>
+      <mat-card-title>Filters</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item class="filter-heading">Launch Year</mat-list-item>
+        <mat-divider></mat-divider>
+        <div class="buttons">
+          <button class="button" mat-flat-button (click)="onYear(2006)">2006</button>
+          <button class="button" mat-flat-button (click)="onYear(2007)">2007</button>
+        </div>
+        <div class="buttons">
+          <button class="button" mat-flat-button (click)="onYear(2008)">2008</button>
+          <button class="button" mat-flat-button (click)="onYear(2009)">2009</button>
+        </div>
+        <div class="buttons">
+          <button class="button" mat-flat-button (click)="onYear(2010)">2010</button>
+          <button class="button" mat-flat-button (click)="onYear(2011)">2011</button>
+        </div>
+        <div class="buttons">
+          <button class="button" mat-flat-button (click)="onYear(2012)">2012</button>
+          <button class="button" mat-flat-button (click)="onYear(2013)">2013</button>
+        </div>
+        <div class="buttons">
+          <button class="button" mat-flat-button (click)="onYear(2014)">2014</button>
+          <button class="button" mat-flat-button (click)="onYear(2015)">2015</button>
+        </div>
+        <div class="buttons">
+          <button class="button" mat-flat-button (click)="onYear(2016)">2016</button>
+          <button class="button" mat-flat-button (click)="onYear(2017)">2017</button>
+        </div>
+        <div class="buttons">
+          <button class="button" mat-flat-button (click)="onYear(2018)">2018</button>
+          <button class="button" mat-flat-button (click)="onYear(2019)">2019</button>
+        </div>
+        <div class="buttons">
+          <button class="button" mat-flat-button (click)="onYear(2020)">2020</button>
+        </div>
+  
+        <mat-list-item class="filter-heading">Successful Launch</mat-list-item>
+        <mat-divider></mat-divider>
+  
+        <div class="buttons">
+          <button class="button" mat-flat-button  (click)="onLaunch('true')">True</button>
+          <button class="button" mat-flat-button  (click)="onLaunch('false')">False</button>
+        </div>
+  
+        <mat-list-item class="filter-heading">Successful Landing</mat-list-item>
+        <mat-divider></mat-divider>
+  
+        <div class="buttons">
+            <button class="button" mat-flat-button  (click)="onLanding('true')">True</button>
+            <button class="button" mat-flat-button  (click)="onLanding('false')">False</button>
+        </div>
+
+        <mat-list-item class="filter-heading">Reset Filters</mat-list-item>
+        <mat-divider></mat-divider>
+        <div class="buttons">
+            <button class="button" mat-flat-button (click)="onReset()">Reset</button>
+        </div>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+  
