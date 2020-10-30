@@ -1,0 +1,37 @@
+<div class="programs-container" fxLayout="row" fxLayoutGap="32px" fxLayout.xs="column">
+    <mat-card *ngFor="let data of launchData">
+        <mat-card-header>
+            <mat-card-title>
+                <img src="https://i.pinimg.com/originals/87/42/45/874245f776ae4703bae095ef28d7a91b.png"
+                    alt="Girl in a jacket" class="responsive"/>
+            </mat-card-title>
+        </mat-card-header>
+        <mar-card-content>
+            <div class="flight-details">
+                <span id="flight-name">{{ data?.mission_name | json }} #{{ data?.flight_number | json }}</span>
+            </div>
+            <div class="flight-details">
+                <span class="title-element">Mission Ids:</span>
+                <div id="mission-ids">
+                    <ul>
+                        <li *ngFor="let id of data?.mission_id">{{id}}</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flight-details">
+                <span class="title-element">Launch Year:</span> {{data?.launch_year | json}}
+            </div>
+            <div class="flight-details">
+                <span class="title-element">Successful Launch:</span> {{data?.launch_success | json}}
+            </div>
+            <div class="flight-details">
+                <span class="title-element">Successful Landing:</span> {{data?.rocket.first_stage.cores[0].land_success | json}}
+            </div>
+        </mar-card-content>
+    </mat-card>
+</div>
+
+<div class="developed-by">
+    <h3>Developed by: Tushar Langer</h3>
+  </div>
+  
