@@ -26,7 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-**PS - XT Coding Assignment**
+## **PS - XT Coding Assignment**
 
 **Problem statement:** _Develop a front-end application which would help users list and browse all launches by SpaceX program._
 
