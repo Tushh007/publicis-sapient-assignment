@@ -1,6 +1,6 @@
-**PS - XT Coding Assignment**
+**PS - Spacex Application**
 
-**Problem statement:** _Develop a front-end application which would help users list and browse all launches by SpaceX program._
+** Major Reqirement:** _Develop a front-end application which would help users list and browse all launches by SpaceX program._
 
 **Important API information that would help you to fetch the data**
 
